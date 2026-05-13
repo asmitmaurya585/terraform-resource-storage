@@ -1,0 +1,24 @@
+# Terraform folder
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform lock file
+.terraform.lock.hcl
+| Line                  | Meaning                         |
+| --------------------- | ------------------------------- |
+| `.terraform/`         | Provider download folder ignore |
+| `*.tfstate`           | Terraform state file ignore     |
+| `*.tfstate.*`         | Backup state files ignore       |
+| `crash.log`           | Terraform crash logs ignore     |
+| `*.tfvars`            | Sensitive variable files ignore |
+| `.terraform.lock.hcl` | Provider lock file ignore       |
