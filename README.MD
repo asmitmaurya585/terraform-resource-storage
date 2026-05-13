@@ -29,3 +29,7 @@ terraform init
 terraform plan
 
 terraform apply
+
+# Terraform Project
+
+![Terraform](images/terraform.png)
